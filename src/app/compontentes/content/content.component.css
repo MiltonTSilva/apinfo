@@ -1,0 +1,119 @@
+h1 {
+  text-align: center;
+}
+
+.section-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Busca principal
+================================================== */
+#busca {
+  background: #0477b8 url(/assets/image/bg_busca.jpg) bottom repeat-x;
+  overflow: hidden;
+  padding: 13px 0;
+}
+
+#busca form,
+#busca input {
+  margin: 0;
+}
+#busca input[type="text"] {
+  float: left;
+  width: 80%;
+  padding: 10px 2px;
+  border: none;
+}
+.section-form {
+  width: 80%;
+  margin: 0 auto;
+}
+#busca #btn-busca {
+  background: url("/assets/image/img_busca.png") no-repeat scroll 5px center
+    #019df6;
+  border: medium none;
+  color: #ffffff;
+  font-size: 16px;
+  text-indent: 20px;
+  text-shadow: none;
+  width: 110px;
+  transition: 0.2s ease-out;
+  -moz-transition: 0.2s ease-out;
+  -webkit-transition: 0.2s ease-out;
+  float: none;
+}
+#busca #btn-busca:hover {
+  background-color: #0286d2;
+}
+#busca a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+#busca a:hover {
+  text-decoration: underline;
+}
+#busca .links-tipo a.b-active {
+  background: #fff;
+  color: #0186d3;
+  padding: 5px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+#busca .links-tipo {
+  margin-bottom: 3px;
+}
+
+/* vagas recentes home
+==================================================*/
+h2 span a {
+  padding: 0 10px 0 10px;
+  font-size: 12px;
+}
+#vagas-recentes h2 {
+  color: #024971;
+  padding: 0 0 0 10px;
+}
+#vagas-recentes .one-third {
+  /*largura alterada para se adequar ao box com borda*/
+  width: 298px;
+}
+
+.rodape-vr {
+  border-bottom: 1px #ccc solid;
+  height: 12px;
+  background: url(/assets/image/img_seta_vaga.jpg) no-repeat bottom right;
+}
+
+.bl-f {
+  background: #deebf7 url(/assets/image/img_balao.png) no-repeat right 5px;
+  padding: 2px 10px;
+}
+.bl-f a {
+  text-decoration: none;
+}
+
+.bl-d {
+  padding: 2px 0 0 10px;
+  font-size: 11px;
+  line-height: 15px;
+  color: #000;
+}
+.bl-d p {
+  margin: 0;
+}
+.bl-d cite {
+  color: #959595;
+}
+.bl-d a {
+  font-size: 11px;
+  text-decoration: none;
+}
+.bl-d .bquote {
+  font-size: 23px;
+}
+
+.container .three.columns {
+  width: 160px;
+}

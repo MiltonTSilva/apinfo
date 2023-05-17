@@ -1,0 +1,57 @@
+html {
+  margin: 0;
+  padding: 0rem;
+  min-height: 100vh;
+  background-color: white;
+  font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: #565656;
+}
+
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 10px 0 20px;
+  height: 0;
+}
+
+.half-bottom {
+  margin-bottom: 10px !important;
+}
+
+.border {
+  border: 1px #ccc solid;
+  border-radius: 3px;
+}
+
+#vagas-recentes h2 {
+  color: #024971;
+  padding: 0 0 0 10px;
+}
+#vagas-recentes .one-third {
+  /*largura alterada para se adequar ao box com borda*/
+  width: 298px;
+}
+
+/* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: "\0020";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.row:after,
+.clearfix:after {
+  clear: both;
+}
+.row,
+.clearfix {
+  zoom: 1;
+}

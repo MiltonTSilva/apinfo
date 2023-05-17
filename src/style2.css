@@ -1,0 +1,907 @@
+/* PadrÃµes
+================================================== */
+img {
+  max-width: 100%;
+}
+.m-tb {
+  margin: 15px 0;
+}
+.m-t {
+  margin-top: 15px;
+}
+.fleft {
+  float: left;
+}
+.fright {
+  float: right;
+}
+.marginr {
+  margin-right: 0 !important;
+}
+.marginl {
+  margin-left: 0 !important;
+}
+h2 {
+  font-family: arial;
+  font-size: 20px;
+}
+.show {
+  background: none repeat scroll 0 0 #efefef;
+  display: block !important;
+  margin-top: -10px;
+}
+.title {
+  background: url(../img/bg_top2.jpg) repeat-x bottom;
+  padding-left: 10px;
+  position: relative;
+  color: #03456b;
+}
+.title span a {
+  background-color: #363636;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  line-height: 30px;
+  margin: 5px 5px 0 0;
+  text-decoration: none;
+  text-indent: 20px;
+}
+.title span a:active {
+  margin: 6px 4px 0 0;
+}
+.title-lateral {
+  position: relative;
+}
+.pen {
+  background-image: url(../img/img_pen.jpg);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+}
+.pd {
+  padding: 0 5px;
+}
+.btn-submit {
+  border-top: 1px #ccc solid;
+  padding: 5px 0 0 0;
+  margin-top: 10px;
+  overflow: hidden;
+}
+input[type="submit"] {
+  background: #00a2ff;
+  border: none !important;
+  color: #fff !important;
+  text-shadow: none;
+  transition: 0.2s ease-out;
+  -moz-transition: 0.2s ease-out;
+  -webkit-transition: 0.2s ease-out;
+  float: right;
+}
+input[type="submit"]:hover {
+  background: #0478ba;
+}
+.linha:after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 8px;
+  background: #0186d3;
+  z-index: 10;
+  right: 5px;
+  top: -5px;
+}
+.center {
+  text-align: center;
+}
+.w-info {
+  background: #deebf7;
+  font-size: 11px;
+  padding: 5px;
+}
+.hide {
+  display: none;
+}
+.btn {
+  padding: 5px;
+  background: #666;
+  color: #fff !important;
+  /*border-radius:0 0 5px 5px;*/
+  text-decoration: none;
+}
+.btn:hover {
+  background: #333;
+}
+.w100 {
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.btn2 {
+  font: bold 12px/24px helvetica, arial, sans-aerif;
+  padding: 5px;
+  background: #00a2ff;
+  border-radius: 5px;
+  color: #fff !important;
+  /*border-radius:0 0 5px 5px;*/
+  text-decoration: none;
+}
+.btn2:hover {
+  background: #0478ba;
+}
+
+/* #Site Styles
+================================================== */
+
+.top-shortcut {
+  background: url(../img/bg_top2.jpg) repeat-x;
+  height: 41px;
+  line-height: 41px;
+  text-align: center;
+}
+.logo {
+  width: 165px;
+  height: 60px;
+  background: url(../img/logo.jpg) no-repeat;
+  text-indent: -9999px;
+}
+.logo a {
+  display: block;
+  width: inherit;
+  height: inherit;
+}
+
+/* menu principal
+ ====================================*/
+.top-menu {
+  background: #0186d3;
+  height: auto;
+  position: relative;
+  margin-bottom: 0;
+  display: table;
+  width: 100%;
+}
+.top-menu-section {
+  width: auto;
+  position: relative;
+  left: 0;
+}
+.top-menu-section ul {
+  width: 100%;
+  display: block;
+  height: auto;
+  margin: 0;
+}
+.top-menu-section ul li {
+  float: left;
+  margin: 0;
+  line-height: 16px;
+}
+.top-menu-section ul li:hover {
+  background-color: #033e5f;
+}
+.top-menu-section ul li a {
+  display: block;
+  color: white;
+  padding: 12px 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+/*.no-touch*/
+.top-menu-section ul li:hover .dropdown {
+  display: block;
+}
+
+.top-menu-section .has-dropdown {
+  position: relative;
+  background: url(../img/seta_sub_menu.png) no-repeat 93% center;
+  padding: 0 10px 0 0;
+}
+.top-menu-section .dropdown {
+  position: absolute;
+  width: auto;
+  background-color: #033e5f;
+  left: 0;
+  z-index: 99;
+  display: none;
+  box-shadow: 1px 1px 1px #000;
+}
+.active-m {
+  background-color: #033e5f !important;
+}
+.top-menu-section .dropdown li {
+  height: auto;
+  display: block;
+  float: none;
+}
+.top-menu-section .dropdown li:hover {
+  background-color: #1e6c97;
+}
+.top-menu-section .dropdown li > a {
+  white-space: nowrap;
+  padding: 10px 15px;
+}
+.btn-mobile {
+  display: none;
+}
+.btn-mobile .btn-menu {
+  background-color: #0186d3;
+  display: block;
+  height: 5px;
+  margin-bottom: 5px;
+  width: 40px;
+  border-radius: 3px;
+}
+
+/* Busca principal
+================================================== */
+#busca {
+  background: #0477b8 url(../img/bg_busca.jpg) bottom repeat-x;
+  overflow: hidden;
+  padding: 13px 0;
+}
+#busca form,
+#busca input {
+  margin: 0;
+}
+#busca input[type="text"] {
+  float: left;
+  width: 80%;
+  padding: 10px 2px;
+  border: none;
+}
+.section-form {
+  width: 80%;
+  margin: 0 auto;
+}
+#busca #btn-busca {
+  background: url("../img/img_busca.png") no-repeat scroll 5px center #019df6;
+  border: medium none;
+  color: #ffffff;
+  font-size: 16px;
+  text-indent: 20px;
+  text-shadow: none;
+  width: 110px;
+  transition: 0.2s ease-out;
+  -moz-transition: 0.2s ease-out;
+  -webkit-transition: 0.2s ease-out;
+  float: none;
+}
+#busca #btn-busca:hover {
+  background-color: #0286d2;
+}
+#busca a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+#busca a:hover {
+  text-decoration: underline;
+}
+#busca .links-tipo a.b-active {
+  background: #fff;
+  color: #0186d3;
+  padding: 5px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+#busca .links-tipo {
+  margin-bottom: 3px;
+}
+
+/* Chamadas
+================================================== */
+.chamadas {
+  text-align: center;
+}
+
+/* RodapÃ©
+================================================== */
+#rodape {
+  border-top: 1px #ccc solid;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+#rodape ul li {
+  margin-bottom: 5px;
+}
+#rodape a {
+  font-size: 12px;
+  text-decoration: none;
+}
+#rodape a:hover {
+  text-decoration: underline;
+}
+#rodape .sub-footer {
+  text-align: center;
+  border-top: 1px #ccc solid;
+  font-size: 11px;
+  line-height: 15px;
+  color: #545454;
+  padding: 5px 0;
+}
+#rodape .sub-footer span {
+  color: #a4a4a4;
+}
+#rodape .titulo {
+  font-weight: bold;
+}
+
+/* publicidade
+================================================== */
+.publicidade-home {
+  text-align: center;
+  padding: 10px 0;
+}
+.publicidade-in {
+  text-align: center;
+}
+
+/* vagas recentes home
+==================================================*/
+h2 span a {
+  padding: 0 10px 0 10px;
+  font-size: 12px;
+}
+#vagas-recentes h2 {
+  color: #024971;
+  padding: 0 0 0 10px;
+}
+#vagas-recentes .one-third {
+  /*largura alterada para se adequar ao box com borda*/
+  width: 298px;
+}
+.border {
+  border: 1px #ccc solid;
+  border-radius: 3px;
+}
+.rodape-vr {
+  border-bottom: 1px #ccc solid;
+  height: 12px;
+  background: url(../img/img_seta_vaga.jpg) no-repeat bottom right;
+}
+.vagas {
+  padding: 10px 0;
+}
+.vagas .data,
+.vagas .empresa {
+  font-size: 11px;
+}
+.vagas a {
+  text-decoration: none;
+  color: #0186d3;
+}
+.vagas .empresa {
+  color: #565656;
+}
+.vagas .data {
+  color: #858484;
+}
+.vagas .nome-vaga {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* sub-chamadas
+================================================== */
+.sub-chamadas h2 {
+  margin-bottom: 5px;
+}
+.bl-f {
+  background: #deebf7 url(../img/img_balao.png) no-repeat right 5px;
+  padding: 2px 10px;
+}
+.bl-f a {
+  text-decoration: none;
+}
+.bl-d {
+  padding: 2px 0 0 10px;
+  font-size: 11px;
+  line-height: 15px;
+  color: #000;
+}
+.bl-d p {
+  margin: 0;
+}
+.bl-d cite {
+  color: #959595;
+}
+.bl-d a {
+  font-size: 11px;
+  text-decoration: none;
+}
+.bl-d .bquote {
+  font-size: 23px;
+}
+
+/* PÃ¡gina forum
+================================================== */
+#coments .box-coment {
+  border-top: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+}
+#coments .box-coment:hover {
+  background: #ededed;
+}
+#coments .box-coment .info {
+  color: #0478ba;
+  font-size: 12px;
+}
+
+/* .links-forum-old {} */
+.links-forum-old ul {
+  margin-bottom: 0;
+}
+.links-forum-old ul li a {
+  font-size: 12px;
+}
+.links-forum-old ul li.all-links a {
+  background: #0186d3;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px 0;
+  color: #fff;
+}
+.link-resposta {
+  overflow: hidden;
+  border-top: 1px solid #cccccc;
+}
+.link-resposta a {
+  display: inline-block;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 5px;
+}
+.box-resposta {
+  margin-left: 50px;
+}
+.box-resposta .resposta {
+  background: #ededed;
+  padding: 10px;
+}
+
+/* #PÃ¡gina busca vagas / form geral
+================================================== */
+.form,
+.form label,
+.form label span {
+  font-size: 12px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+  margin-bottom: 10px;
+}
+.form .i-data {
+  width: 100px;
+}
+.form .i-data:first-child {
+  margin-right: 10px;
+}
+.area-info input,
+.area-info textarea {
+  margin: 0;
+}
+.area-info small {
+  background: #e9e9e9;
+  display: block;
+  line-height: 13px;
+  padding: 3px;
+  position: relative;
+}
+.area-info small:after {
+  background: url("../img/img_info.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  content: "";
+  height: 10px;
+  left: 10px;
+  position: absolute;
+  top: -10px;
+  width: 10px;
+}
+.form fieldset {
+  border-top: 1px #ccc solid;
+  margin-bottom: 10px;
+}
+.form fieldset legend {
+  padding: 0 5px;
+  color: #000;
+}
+/* .form .lista-cores {
+} */
+.form .lista-cores li {
+  float: left;
+  position: relative;
+  margin: 4px;
+}
+.form .lista-cores li span {
+  display: block;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: 1px #666 solid;
+}
+.form .lista-cores li span.ok {
+  background: url(../img/img_ok.png) center center;
+}
+
+.form-coment {
+  display: none;
+}
+.form .fside .side {
+  width: 260px;
+  float: left;
+  margin: 0 10px 10px 0;
+  height: 55px;
+}
+
+/* PÃ¡gina vagas
+================================================== */
+#vagas .box-vagas {
+  border-top: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  position: relative;
+}
+.box-vagas .info-data {
+  color: #8d8d8d;
+  font-size: 11px;
+  margin-top: 10px;
+}
+.box-vagas .cargo {
+  color: #0186d3;
+  font-size: 16px;
+}
+.s-a li {
+  display: inline-block;
+}
+.s-a li span {
+  background: #d3d3d3;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 3px;
+}
+.s-a li span a {
+  color: red;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 4px;
+}
+
+.btn3 {
+  font: bold 12px/24px helvetica, arial, sans-aerif;
+  padding: 5px;
+  background: #00a2ff;
+  border-radius: 5px;
+  color: #fff !important;
+  /*border-radius:0 0 5px 5px;*/
+  text-decoration: none;
+  float: right;
+}
+.btn3:hover {
+  background: #0478ba;
+}
+
+.btn3:visited {
+  background: #87cefa;
+}
+
+/* PÃ¡gina sugestão pesquisa
+================================================== */
+
+#searchfield {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 35px;
+}
+
+#searchfield form {
+  display: inline-block;
+  background: #eeefed;
+  padding: 0;
+  margin: 0;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 5px 0 0 0;
+}
+#searchfield form .biginput {
+  width: 600px;
+  height: 40px;
+  padding: 0 10px 0 10px;
+  background-color: #fff;
+  border: 1px solid #c8c8c8;
+  border-radius: 3px;
+  color: #aeaeae;
+  font-weight: normal;
+  font-size: 1.5em;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+#searchfield form .biginput:focus {
+  color: #858585;
+}
+
+.autocomplete-suggestions {
+  border: 1px solid #999;
+  background: #fff;
+  cursor: default;
+  overflow: auto;
+}
+.autocomplete-suggestion {
+  padding: 10px 5px;
+  font-size: 1.2em;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.autocomplete-selected {
+  background: #f0f0f0;
+}
+.autocomplete-suggestions strong {
+  font-weight: normal;
+  color: #3399ff;
+}
+
+/* PÃ¡gina cv
+================================================== */
+#cv .box-cv {
+  border-top: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  position: relative;
+}
+.box-cv .info-data {
+  color: #8d8d8d;
+  font-size: 11px;
+  margin-top: 10px;
+}
+.box-cv .info a {
+  color: #0186d3;
+  font-size: 16px;
+  text-decoration: none;
+}
+.box-cv .info a:hover {
+  text-decoration: underline;
+}
+.box-cv .info a:visited {
+  color: #c00;
+}
+.tlt-sessao {
+  font-size: 14px;
+  background: linear-gradient(to bottom, #ffffff, #e5e5e5) repeat scroll 0 0
+    rgba(0, 0, 0, 0);
+  border-width: 1px 0;
+  border-style: ridge;
+  border-collapse: #333;
+  text-indent: 5px;
+  font-weight: 700;
+  margin: 0 -5px 5px;
+  color: #0478ba;
+  border-color: #d7d7d7;
+}
+.lista-itens a {
+  margin-right: 10px;
+}
+.lista-info .cargo {
+  background: none;
+}
+.lista-info li {
+  margin: 0 0 3px;
+  padding: 4px 2px;
+}
+.lista-info li:nth-child(2n + 3) {
+  background: #f3f3f3;
+}
+.lista-info a {
+  background: #199e38;
+  box-shadow: 2px 2px 0 #999;
+}
+.overflow {
+  height: 480px;
+  overflow: auto;
+}
+
+/* Complementos para a pÃ¡gina [ paginacao/contador de paginas etc ]
+================================================== */
+.complemento {
+  overflow: hidden;
+}
+.complemento a {
+  font-size: 11px;
+  padding-right: 5px;
+}
+.complemento .n-paginas {
+  text-align: right;
+  padding: 0 5px 0 0;
+  margin-bottom: 10px;
+}
+.paginacao,
+.paginacao {
+  text-align: right;
+}
+.paginacao,
+.paginacao a {
+  font-size: 12px;
+}
+.paginacao input {
+  width: 50px;
+  margin: 0 0 0 0;
+}
+.paginacao input,
+.paginacao input[type="submit"] {
+  width: 50px;
+}
+.paginacao input[type="submit"] {
+  background: #0186d3;
+  color: #fff;
+  border: none;
+}
+.paginacao table td {
+  vertical-align: middle;
+}
+.paginacao .separa {
+  padding: 0 100px;
+}
+.box-pesquisa input {
+  display: inline;
+}
+
+/* conteÃºdo geral
+================================================== */
+.content h3 {
+  font-size: 18px;
+  color: #333;
+}
+.cargo {
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px #ccc solid;
+  padding: 0 0 10px;
+}
+
+/* tabelas
+================================================== */
+/* table {
+  border: 1px #ccc solid;
+} */
+.f-border td,
+.f-border th {
+  border: 1px #ccc solid;
+  padding: 3px;
+}
+table th {
+  font-weight: bold;
+}
+#ajuda dt {
+  padding-left: 5px;
+  cursor: pointer;
+}
+#ajuda h3 {
+  color: #03456b;
+}
+
+/* Lightbox para conteudo
+================================================== */
+#light-info {
+  position: fixed;
+  background: rgba(000, 000, 000, 0.5);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+}
+#light-info .wp {
+  background: #fff;
+  position: relative;
+  width: 60%;
+  height: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 30px;
+  overflow: hidden;
+}
+#light-info #box-content {
+  overflow: auto;
+  height: 100%;
+}
+#light-info #close a {
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+  padding: 5px 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Erro FormulÃ¡rio
+================================================== */
+form .msg {
+  border: 1px solid #ccc;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+form .ok {
+  background-color: #e1ffe1;
+  border-color: #090;
+  color: #090;
+}
+form .error {
+  background-color: #ffe8e8;
+  border-color: #f00;
+  color: #f00;
+}
+/*span.error {
+	display: none !important;
+}
+*/
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .top-menu-section ul li a {
+    font-size: 13px;
+  }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  .top-menu-section {
+    display: none;
+  }
+  .top-menu-section > ul > li {
+    float: none;
+    border-top: 1px #1e6c97 solid;
+  }
+  .section-form {
+    width: 95%;
+  }
+  .btn-mobile {
+    display: block;
+  }
+  .top-menu-section .dropdown {
+    position: relative;
+  }
+  .top-menu-section .has-dropdown {
+    padding: 0;
+  }
+  .vagas .bloco-vaga-unica {
+    padding: 0 4px;
+  }
+  .top-shortcut span {
+    font-size: 11px;
+  }
+  #busca-simples input[type="text"],
+  #busca-simples select,
+  .form-nivel2 input[type="text"],
+  .form-nivel2 select,
+  .form-nivel2 textarea {
+    width: 90% !important;
+  }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #busca input[type="text"] {
+    width: 70%;
+  }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  #busca input[type="text"] {
+    width: 60%;
+  }
+}

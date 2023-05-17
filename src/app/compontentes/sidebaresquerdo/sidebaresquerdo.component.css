@@ -1,0 +1,88 @@
+section {
+  padding: 2px;
+  display: contents;
+}
+
+article {
+  border-style: solid;
+  border-color: #f3f781;
+  padding: 1px;
+  text-align: center;
+}
+
+a,
+a:visited {
+  color: #03456b;
+  text-decoration: underline;
+  outline: 0;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 0 0 10px 0;
+  font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color: blue;
+  background-color: #f3f781;
+  font-family: arial;
+  font-size: 14px;
+  line-height: 40px;
+  margin-bottom: 0px;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  padding: 0;
+  color: blue;
+  background-color: #f6f3f1;
+  font-family: arial;
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 0px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.vagas {
+  padding: 10px 0;
+}
+
+.vagas a {
+  text-decoration: none;
+  color: #0186d3;
+}
+.nome-vaga {
+  font-size: 14px;
+  font-weight: 700;
+  background-color: white;
+}
+
+.uf {
+  background-color: white;
+  color: #858484;
+  font-size: 12px;
+}
+
+.nome {
+  background-color: white;
+  color: #565656;
+  font-size: 12px;
+}
+
+.rodape-vr {
+  border-bottom: 1px #ccc solid;
+  height: 12px;
+  background: url(/assets/image/img_seta_vaga.jpg) no-repeat bottom right;
+}

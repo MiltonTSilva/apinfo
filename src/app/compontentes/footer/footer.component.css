@@ -1,0 +1,53 @@
+footer {
+  text-align: center;
+}
+
+.sub-footer {
+  text-align: center;
+  border-top: 1px #ccc solid;
+  font-size: 11px;
+  line-height: 15px;
+  color: #545454;
+  padding: 5px 0;
+}
+.sub-footer span {
+  color: #a4a4a4;
+}
+
+/* Rodapé
+================================================== */
+#rodape {
+  border-top: 1px #ccc solid;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+#rodape ul li {
+  margin-bottom: 5px;
+}
+#rodape a {
+  font-size: 12px;
+  text-decoration: none;
+}
+#rodape a:hover {
+  text-decoration: underline;
+}
+#rodape .sub-footer {
+  text-align: center;
+  border-top: 1px #ccc solid;
+  font-size: 11px;
+  line-height: 15px;
+  color: #545454;
+  padding: 5px 0;
+}
+#rodape .sub-footer span {
+  color: #a4a4a4;
+}
+#rodape .titulo {
+  font-weight: bold;
+}
+
+p {
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}

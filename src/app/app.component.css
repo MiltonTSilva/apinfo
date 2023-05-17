@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0px;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+.sidebar-esquerdo {
+  background-color: white;
+  width: 22%;
+  height: auto;
+  margin: 1px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.content {
+  background-color: white;
+  width: 55.6%;
+  margin: 1px;
+  height: auto;
+  font-size: 20px;
+}
+
+.sidebar-direito {
+  background-color: white;
+  width: 21.9%;
+  height: auto;
+  margin: 1px;
+  text-align: center;
+  font-size: 20px;
+}
